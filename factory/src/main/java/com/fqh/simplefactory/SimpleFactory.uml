@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.fqh.simplefactory.order.OrderPizza</OriginalElement>
+  <nodes>
+    <node x="200.5" y="225.0">com.fqh.simplefactory.pizza.GreekPizza</node>
+    <node x="59.918981481481524" y="359.0">com.fqh.simplefactory.order.SimpleFactory</node>
+    <node x="194.52314814814812" y="0.0">com.fqh.simplefactory.pizza.Pizza</node>
+    <node x="44.5" y="225.0">com.fqh.simplefactory.pizza.CheesePizza</node>
+    <node x="353.5" y="225.0">com.fqh.simplefactory.pizza.PepperPizza</node>
+    <node x="127.19212962962963" y="491.0">com.fqh.simplefactory.order.OrderPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.fqh.simplefactory.order.SimpleFactory" target="com.fqh.simplefactory.pizza.GreekPizza" relationship="CREATE">
+      <point x="47.0" y="-40.0" />
+      <point x="200.91898148148152" y="337.0" />
+      <point x="270.4189814814815" y="337.0" />
+      <point x="270.4189814814815" y="327.0" />
+      <point x="267.0" y="327.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.fqh.simplefactory.order.OrderPizza" target="com.fqh.simplefactory.order.SimpleFactory" relationship="TO_ONE">
+      <point x="54.5" y="-64.0" />
+      <point x="290.6921296296296" y="470.0" />
+      <point x="269.9421296296296" y="470.0" />
+      <point x="269.9421296296296" y="460.0" />
+      <point x="200.91898148148152" y="460.0" />
+      <point x="47.0" y="40.0" />
+    </edge>
+    <edge source="com.fqh.simplefactory.pizza.GreekPizza" target="com.fqh.simplefactory.pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="267.0" y="204.0" />
+      <point x="261.02314814814815" y="204.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="com.fqh.simplefactory.order.OrderPizza" target="com.fqh.simplefactory.pizza.Pizza" relationship="DEPENDENCY">
+      <point x="-54.5" y="-64.0" />
+      <point x="181.69212962962962" y="470.0" />
+      <point x="120.16898148148152" y="470.0" />
+      <point x="120.16898148148152" y="460.0" />
+      <point x="0.0" y="460.0" />
+      <point x="0.0" y="204.0" />
+      <point x="5.25" y="204.0" />
+      <point x="5.25" y="194.0" />
+      <point x="216.68981481481478" y="194.0" />
+      <point x="-44.33333333333334" y="86.5" />
+    </edge>
+    <edge source="com.fqh.simplefactory.pizza.PepperPizza" target="com.fqh.simplefactory.pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="422.0" y="204.0" />
+      <point x="261.02314814814815" y="204.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="com.fqh.simplefactory.order.SimpleFactory" target="com.fqh.simplefactory.pizza.Pizza" relationship="DEPENDENCY">
+      <point x="-47.0" y="-40.0" />
+      <point x="106.91898148148152" y="337.0" />
+      <point x="34.0" y="337.0" />
+      <point x="34.0" y="204.0" />
+      <point x="5.25" y="204.0" />
+      <point x="5.25" y="194.0" />
+      <point x="216.68981481481478" y="194.0" />
+      <point x="-44.33333333333334" y="86.5" />
+    </edge>
+    <edge source="com.fqh.simplefactory.order.OrderPizza" target="com.fqh.simplefactory.pizza.Pizza" relationship="TO_ONE">
+      <point x="54.5" y="-64.0" />
+      <point x="290.6921296296296" y="470.0" />
+      <point x="269.9421296296296" y="470.0" />
+      <point x="269.9421296296296" y="460.0" />
+      <point x="501.0" y="460.0" />
+      <point x="501.0" y="194.0" />
+      <point x="305.3564814814814" y="194.0" />
+      <point x="44.333333333333314" y="86.5" />
+    </edge>
+    <edge source="com.fqh.simplefactory.pizza.CheesePizza" target="com.fqh.simplefactory.pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="112.5" y="204.0" />
+      <point x="261.02314814814815" y="204.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="com.fqh.simplefactory.order.SimpleFactory" target="com.fqh.simplefactory.pizza.CheesePizza" relationship="CREATE">
+      <point x="47.0" y="-40.0" />
+      <point x="200.91898148148152" y="337.0" />
+      <point x="270.4189814814815" y="337.0" />
+      <point x="270.4189814814815" y="327.0" />
+      <point x="112.5" y="327.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.fqh.simplefactory.order.SimpleFactory" target="com.fqh.simplefactory.pizza.PepperPizza" relationship="CREATE">
+      <point x="47.0" y="-40.0" />
+      <point x="200.91898148148152" y="337.0" />
+      <point x="270.4189814814815" y="337.0" />
+      <point x="270.4189814814815" y="327.0" />
+      <point x="422.0" y="327.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.fqh.simplefactory.order.OrderPizza" target="com.fqh.simplefactory.order.SimpleFactory" relationship="DEPENDENCY">
+      <point x="-54.5" y="-64.0" />
+      <point x="181.69212962962962" y="470.0" />
+      <point x="120.16898148148152" y="470.0" />
+      <point x="120.16898148148152" y="460.0" />
+      <point x="106.91898148148152" y="460.0" />
+      <point x="-47.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="250.5" y="309.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
